@@ -9,8 +9,8 @@ public class GameField {
         matrix = new int[][]{
                 {0, 0, 0, 2},
                 {2, 2, 4, 8},
-                {4, 16, 36, 0},
-                {64, 32, 16, 8}};
+                {4, 16, 32, 0},
+                {64, 32, 2048, 8}};
     }
 
     public int[][] getMatrix() {

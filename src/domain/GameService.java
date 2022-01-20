@@ -8,6 +8,10 @@ public class GameService {
         gameField = new GameField(4);
     }
 
+    public GameField getGameField() {
+        return gameField;
+    }
+
     public void moveLeft() {
         int[][] matrix = gameField.getMatrix();
         shift(matrix);

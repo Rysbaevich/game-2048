@@ -28,4 +28,8 @@ public class Controller {
         }
     }
 
+    public GameField getGameField() {
+        return gameService.getGameField();
+    }
+
 }
